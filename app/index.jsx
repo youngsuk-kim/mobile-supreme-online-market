@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Button, Text, TextInput } from 'react-native-paper';
-import { loginRequest } from '../api/auth/authApi';
+import { loginRequest } from '../api/authApi';
 import { router } from 'expo-router';
 
 function LoginPage() {

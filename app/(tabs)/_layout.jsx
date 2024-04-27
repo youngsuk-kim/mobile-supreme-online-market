@@ -6,15 +6,14 @@ function TabsLayout() {
     return (
         <Tabs>
             <Tabs.Screen name={"index"} options={{
-                headerTitle: "Home",
-                title: "Home",
+                headerTitle: "상품",
+                title: "상품",
                 tabBarIcon: ({color, size}) => (
-                    <AntDesign name="home" size={size} color={color}/>
-                )
+                    <FontAwesome5 name="shopify" size={size} color={color}/>)
             }}/>
             <Tabs.Screen name={"products/[id]"} options={{
-                headerTitle: "Product",
-                title: "Product",
+                headerTitle: "상품",
+                title: "상품",
                 tabBarIcon: ({color, size}) => (
                     <FontAwesome5 name="shopify" size={size} color={color}/>)
             }}/>

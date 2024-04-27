@@ -1,4 +1,4 @@
-import { fetchUser } from '../api/users/userApi';
+import { fetchUser } from '../api/userApi';
 import { useEffect, useState } from 'react';
 
 export function useGetUser() {
